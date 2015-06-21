@@ -78,3 +78,9 @@ NoMethodError: undefined method `to_a' for #<SQLite3::Statement:0x000000026b0ec0
  AND name = "schema_migrations"
   Rendered /usr/local/rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/railties-4.2.2/lib/rails/templates/rails/info/properties.html.erb (0.4ms)
 Completed 200 OK in 188ms (Views: 6.8ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-21 05:15:16 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/railties-4.2.2/lib/rails/templates/rails/welcome/index.html.erb (65.5ms)
+Completed 200 OK in 298ms (Views: 122.6ms | ActiveRecord: 0.0ms)
